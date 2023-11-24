@@ -11,6 +11,9 @@ inputs:
   deploy_key:
     description: 'Set a SSH private key from repository secret value for pushing to the remote branch.'
     required: false
+  host_key:
+    description: 'The SSH Host key for the GitHub server.'
+    required: false
   github_token:
     description: 'Set a generated GITHUB_TOKEN for pushing to the remote branch.'
     required: false
