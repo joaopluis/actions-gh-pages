@@ -50,6 +50,7 @@ export function getInputs(): Inputs {
 
   const inps: Inputs = {
     DeployKey: core.getInput('deploy_key'),
+    HostKey: core.getInput('host_key'),
     GithubToken: core.getInput('github_token'),
     PersonalToken: core.getInput('personal_token'),
     PublishBranch: core.getInput('publish_branch'),
